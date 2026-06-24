@@ -140,7 +140,7 @@ if opcion == "Perfil de Riesgo":
             else:
                 perfil= "Conservador",
 
-            st.success(f"Perfil: **{perfil}**")
+            st.success(f"Perfil: {perfil}")
 
             st.session_state["coef_A"] = A
             st.session_state["perfil"] = perfil
