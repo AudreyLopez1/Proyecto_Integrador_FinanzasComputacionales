@@ -471,7 +471,7 @@ elif opcion == "Backtest":
     datos = st.session_state["datos"]
 
     # cargamos las estrategias
-    import indicadores.estrategia_bollinger as bollinger
+    from Proyecto_Integrador.indicadores import estrategia_bollinger as bollinger
     import indicadores.estrategia_ema as ema
     import indicadores.estrategia_logit as logit
     import indicadores.estrategia_macd as macd
